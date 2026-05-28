@@ -1,0 +1,28 @@
+// Sample-app configuration. Copy this file to `config.js` and fill in real
+// values. 
+
+module.exports = {
+  // Your Gr4vy ID (the subdomain).
+  id: "spider",
+
+  // "sandbox" or "production". Ignored when `apiBaseUrl` is set.
+  server: "sandbox",
+
+  // Optional: UUID of the Paze payment service configured in your Gr4vy dashboard.
+  // If not provided, flow rules will determine which payment service is used.
+  paymentServiceId: "30dd07ba-2b26-4d56-82cb-6b34c827b3d4", // mock-card from fixtures
+
+  // Transaction amount in the smallest currency unit (e.g. 5021 = $50.21).
+  amount: 5021,
+
+  // ISO 4217 currency code.
+  currency: "USD",
+
+  // The domain registered with the Paze merchant account, used to fetch the corresponding profile
+  merchantDomainName: "sandbox.example009.gr4vy.app",
+  
+  // Optional: override the API base URL (e.g. for a local core-api instance).
+  // apiBaseUrl: "http://localhost:8000",
+
+
+};

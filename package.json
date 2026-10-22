@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@gr4vy/sdk": "^2.1.0",
-    "next": "^16.2.6",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "@gr4vy/sdk": "^2.4.37",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "engines": {
     "node": ">=22"
